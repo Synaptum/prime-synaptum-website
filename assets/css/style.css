@@ -1,0 +1,134 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #0B1220;
+    line-height: 1.7;
+}
+
+.custom-navbar {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand {
+    color: #2563eb !important;
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    background:
+        radial-gradient(circle at top right,
+        rgba(37,99,235,0.12),
+        transparent 30%);
+}
+
+.hero-badge {
+    background: rgba(37,99,235,0.1);
+    color: #2563eb;
+    padding: 0.6rem 1rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    color: #64748b;
+    max-width: 700px;
+}
+
+.hero-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+}
+
+.feature-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.feature-item i {
+    font-size: 1.7rem;
+    color: #2563eb;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.section-description {
+    max-width: 850px;
+    color: #64748b;
+}
+
+.service-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.service-card i {
+    font-size: 2rem;
+    color: #60a5fa;
+}
+
+.service-card h4 {
+    margin: 1.2rem 0;
+}
+
+.platform-card,
+.why-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    padding: 2rem;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.cta-section {
+    padding: 120px 0;
+    background: #0B1220;
+    color: white;
+}
+
+.cta-section p {
+    color: #cbd5e1;
+    max-width: 750px;
+    margin-inline: auto;
+}
+
+.footer-section {
+    background: #020617;
+    color: #cbd5e1;
+    padding: 80px 0 30px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #cbd5e1;
+}
+
+.footer-divider {
+    margin: 3rem 0 2rem;
+    border-color: rgba(255,255,255,0.1);
+}
