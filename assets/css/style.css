@@ -132,3 +132,26 @@ body {
     margin: 3rem 0 2rem;
     border-color: rgba(255,255,255,0.1);
 }
+
+.facebook-link {
+  color: #1877F2; /* Official Facebook Blue */
+  font-size: 30px; /* Adjust size here */
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.facebook-link:hover {
+  opacity: 0.8; /* Dim effect on hover */
+}
+
+.whatsapp-link {
+  color: #25D366; /* Official WhatsApp Green */
+  font-size: 30px; /* Matches the Facebook icon size */
+  text-decoration: none;
+  margin-left: 15px; /* Adds spacing between icons */
+  transition: opacity 0.2s;
+}
+
+.whatsapp-link:hover {
+  opacity: 0.8;
+}
