@@ -155,3 +155,29 @@ body {
 .whatsapp-link:hover {
   opacity: 0.8;
 }
+
+.linkedin-link {
+  color: #0077B5; /* Official LinkedIn Blue */
+  font-size: 30px; /* Matches the Facebook and WhatsApp icon size */
+  text-decoration: none;
+  margin-left: 15px; /* Adds spacing between icons */
+  transition: opacity 0.2s;
+}
+
+.linkedin-link:hover {
+  opacity: 0.8;
+}
+
+#backToTop{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  border:none;
+  background:#030759;
+  color:white;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  display:none;
+  z-index:999;
+}
